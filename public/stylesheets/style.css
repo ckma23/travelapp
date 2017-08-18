@@ -1,0 +1,23 @@
+.navbar {
+  background-color:#009999;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'Abel', cursive;
+  font-weight: bold;
+}
+
+h2  a {
+  font-family: 'Yellowtail', cursive;
+}
+
+h3 {
+  font-family: 'Amatic SC', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'Yellowtail';
+  font-size: 2em;
+  color: white;
+}
