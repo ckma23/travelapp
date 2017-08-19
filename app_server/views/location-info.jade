@@ -14,33 +14,69 @@ block content
             span.glyphicon.glyphicon-star
             span.glyphicon.glyphicon-star
             span.glyphicon.glyphicon-star-empty
-            
-         p 125 High Street, San Francisco, CA
+          p 125 High Street, San Francisco, CA
           .panel.panel-primary
             .panel-heading
               h2.panel-title Opening Hours
             .panel-body
-                p Monday - Friday : 7:00am - 7:00pm
-                p Saturday : 8:00am - 5:00pm
-                p Sunday : closed
+              p Monday - Friday : 7:00am - 7:00pm
+              p Saturday : 8:00am - 5:00pm
+              p Sunday : closed
           .panel.panel-primary
             .panel-heading
               h2.panel-title Facilities
             .panel-body
               span.label.label-warning
                 span.glyphicon.glyphicon-ok
-                | &nbsp; Hot drinks
+                | &nbsp;Hot drinks
               | &nbsp;
               span.label.label-warning
                 span.glyphicon.glyphicon-ok
-                | &nbsp; Food
+                | &nbsp;Food
               | &nbsp;
               spanl.label.label-warning
                 span.glyphicon.glyphicon-ok
-                | &nbsp; Premium wifi
+                | &nbsp;Premium wifi
               | &nbsp;
         .col-xs-12.col-sm-6.location-map
           .panel.panel-primary
             .panel-heading
               h2.panel-title Location map
             .panel-body
+               img.img-responsive.img-rounded(src='http://maps.googleapis.com/maps/api/staticmap?center=51.455041,-0.9690884&zoom=17&size=400x350&sensor=false&markers=51.455041,-0.9690884&scale=2')
+      .row
+        col-xs-12
+          .panel.panel-primary.review-panel
+            .panel-heading
+              a.btn.btn-default.pull-right(href='/location/review/new') Add Review!
+              h2.panel-title Customer Reviews
+            .panel-body.review-container
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.rating
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                    span.reviewAuthor Jack Ma
+                    small.reviewTimestamp 16 July 2017
+                  .col-xs-12
+                    p What a great place. I can't wait to come back.
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.rating
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star-empty
+                    span.reviewAuthor Stephen Curry
+                    small.reviewTimestamp 10 April 2017
+                  .col-xs-12
+                    p This place is cool. My three's are more fire.
+    .col-xs-12.col-md-3
+      p.lead Starcup is on TravelApp because it is an awesome place to eat, drink, and to get work done..
+      p If you been and like it - or if you don't - Please provide a review to help other people!

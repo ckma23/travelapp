@@ -1,5 +1,27 @@
+.review {
+  padding-bottom: 5px;
+}
+.panel-body.review-container {
+  padding-top:0;
+}
+.review-header {
+  margin-bottom: 10px;
+}
+
+.reviewAuthor {
+  margin: 0 5px;
+}
+
+.reviewTimestamp {
+  color:grey;
+}
+
 .navbar {
-  background-color:#009999;
+  background-color:#006472;
+}
+.navbar-brand {
+  color:white!important;
+  font-size:2.5em!important;
 }
 
 h1 {
@@ -20,4 +42,18 @@ h3 {
   font-family: 'Yellowtail';
   font-size: 2em;
   color: white;
+}
+
+.glyphicon-star {
+}
+
+.label-warning {
+  background-color:#91c699;
+}
+.panel-heading {
+  background-color:#40a1bc!important;
+  border-color:grey!important;
+}
+.panel {
+  border-color:grey!important;
 }
